@@ -17,12 +17,12 @@
 #define LEDC_OUTPUT_IO          (4) // Define the output GPIO
 #define LEDC_CHANNEL            LEDC_CHANNEL_0
 #define LEDC_DUTY_RES           LEDC_TIMER_10_BIT // Set duty resolution to 10 bits ((2 ** 10)-1)
-#define LEDC_DUTY               (716) //716 Set duty to 70%. (?/LEDC_TIMER_10_BIT) * 100% = 716
+#define LEDC_DUTY               (1023) //716 Set duty to 70%. (?/LEDC_TIMER_10_BIT) * 100% = 716
 #define LEDC_FREQUENCY          (25000) // Frequency in Hertz. Set frequency at 5 kHz
 #define GPIO_INTERRUPT_PIN      (5)
 
 #define ADC_UNIT                ADC_UNIT_1
-#define ADC_CHANNEL             ADC_CHANNEL_4
+#define ADC_CHANNEL             ADC_CHANNEL_2
 #define ADC_ATTEN               ADC_ATTEN_DB_11 // ADC_BITWIDTH_DEFAULT //  ADC_ATTEN_DB_11
 
 
